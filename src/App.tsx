@@ -6,8 +6,6 @@ import Footer from "./components/Footer";
 import AboutUs from "./components/About"; // Import AboutUs page
 import ContactUs from "./components/Contact"; // Import ContactUs page
 import Home from "./components/Home";
-import ContactUs from "./components/Contact"; // Import ContactUs page
-// import Home from "./components/Home";
 const App: React.FC = () => {
   return (
     <Router>
