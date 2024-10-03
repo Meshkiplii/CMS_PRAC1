@@ -1,46 +1,49 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Learning Journal Entry
+**# Week 1.**
+## Project Title: Doctor Appointment Booking Website
 
-## Available Scripts
+### Project Overview
+This week, I dedicated my efforts to developing a doctor appointment booking website using React, Typescript, and Material-UI. The goal is to create a seamless and efficient platform for users to book appointments with doctors, manage their schedules, and explore the services offered.
 
-In the project directory, you can run:
+### Initial Thoughts
+At the outset of this project, my focus was on creating a user-friendly interface that would facilitate easy appointment booking for patients. Key features envisioned included a responsive design, an appointment listing, and a fixed navigation bar for straightforward access to different site sections.
 
-### `npm start`
+### Steps Taken
+1. **Resources i used when getting Started with my Website:**
+   - [Web Development Beginners Tutorial](https://youtu.be/SqcY0GlETPk?si=m-9ywaueute_5qjh)
+   - [Material UI Getting started](https://mui.com/material-ui/getting-started/)
+   - [React typescript Getting started](https://react.dev/learn/typescript)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. **Design and Planning:**
+   - Outlined essential features for the website, including a homepage, appointment booking form, and informational pages like About Us and Contact Us.
+   - Opted to use Material-UI for consistent styling and enhanced responsiveness.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. **Development:**
+   - **Homepage:** Created a welcoming homepage featuring a background image of a doctor and an invitation to book appointments. This included a brief introduction to the service.
+   - **Appointment Booking:** Developed a booking form with fields for the patient's name, selected doctor, date, and time. Implemented local storage to ensure users could view their upcoming appointments even after refreshing the page.
+   - **Navigation Bar:** Designed a responsive navigation bar with links to the homepage, appointment booking, About Us, and Contact Us pages, including hover effects for improved user interaction.
+   - **Additional Pages:** Crafted simple About Us and Contact Us pages to provide users with more details about the service and contact options.
 
-### `npm test`
+4. **Responsive Design:**
+   - Ensured full responsiveness of the website, with elements adapting seamlessly to various screen sizes, particularly for mobile users.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Challenges Faced
+- A significant challenge was ensuring the appointment form remained intuitive and user-friendly. This required multiple iterations on the design to clarify all fields and enhance ease of use.
+- Effectively managing state and local storage for appointment retrieval without data loss on page refresh necessitated careful implementation of hooks in React.
 
-### `npm run build`
+### Lessons Learned
+- I recognized the critical role of user experience in web design and the importance of testing features with actual users.
+- Gaining hands-on experience with React and Material-UI has greatly enhanced my understanding of front-end development.
+- Deploying the website to Netlify provided insights into web hosting options and underscored the importance of selecting the right platform for deployment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Next Steps
+- Plan to enhance the website by adding features like email notifications for appointments and user authentication.
+- Prepare for future iterations based on user feedback and expand the content of the About Us and Contact Us pages to better connect with users.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Conclusion
+Overall, this project has been an enriching learning experience, and I look forward to applying the skills I've acquired to future projects while exploring more advanced features and technologies. 
+- Here’s the website I accomplished in 5 hours: 
+- [Doctor Appointment](https://seekdoctor.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
